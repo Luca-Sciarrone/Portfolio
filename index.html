@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Luca Sciarrone">
+   <meta name="description" content="Luca Sciarrone - Sviluppatore Web Front-end">
+   <title>Luca Sciarrone Web Developer</title>
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" media="screen">
+
+   <!--=============== SWIPER CSS ===============-->
+   <!-- <link rel="stylesheet" href=""> -->
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="index.html" class="nav__logo">Luca</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="index.html" class="nav__link">Home</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="about.html" class="nav__link">Chi sono</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="work.html" class="nav__link">Portfolio</a>
+               </li>
+
+               <li class="nav__item">
+                  <button> <a href="contact.html" class="button">Contattami</a></button>
+               </li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__actions">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+
+      <!--==================== HOME ====================-->
+      <section class="home section">
+         <div class="home__rectangle"></div>
+
+         <div class="home__container container grid">
+            <div class="home__profile profile">
+               <div class="profile__content">
+                  <img src="assets/img/Luca_Sciarrone.webp" width="640" height="640" alt="Immagine del profilo" class="profile__img">
+               </div>
+            </div>
+
+            <div class="home__content grid">
+               <div class="home__data grid">
+                  <h1 class="home__name">Luca Sciarrone</h1>
+
+                  <h2 class="home__profession">Web Developer</h2>
+
+                  <div class="home__social">
+                     <a href="https://github.com/Luca-Sciarrone" target="_blank" class="home__social-link" title="GitHub">
+                        <i class="ri-github-fill"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/luca-sciarrone-331234242/" target="_blank"
+                        class="home__social-link" title="Linkedin">
+                        <i class="ri-linkedin-box-fill"></i>
+                     </a>
+
+                     <a href="https://twitter.com/LucaSciarrone" target="_blank"
+                        class="home__social-link" title="X">
+                        <i class="ri-twitter-x-fill"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <a href="assets/pdf/CV Europass Luca Sciarrone_compressed.pdf" download="" class="home__button button">Download CV</a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+         <h2 class="section__title">
+            Cosa offro:
+         </h2>
+
+         <div class="services__container container grid">
+
+            <article class="services__card">
+               <i class="ri-code-s-slash-line services__icon"></i>
+               <h2 class="services__title">Custom Web Development</h2>
+               <p class="services__description">
+                  Sviluppo siti interamente personalizzati in base alle esigenze del cliente. <br>
+                  Il codice rispetta tutti i principi semantici in funzione della SEO ed è realizzato per ottenere la
+                  migliore interfaccia utente (UI) possibile.
+               </p>
+
+               <button class="services__button button">Scopri di più</button>
+
+               <div class="services__modal">
+                  <div class="services__modal-content">
+                     <i class="ri-close-line services__modal-close"></i>
+
+                     <h2 class="services__modal-title">Custom Web Development</h2>
+
+                     <ul class="services::modal-list grid">
+                        <li class="services__modal-item">
+                           I linguaggi e le tecnologie impiegati:
+                        </li>
+                        <li class="services__modal-item">
+                           HTML 5
+                        </li>
+                        <li class="services__modal-item">
+                           CSS3
+                        </li>
+                        <li class="services__modal-item">
+                           BOOTSTRAP 5
+                        </li>
+                        <li class="services__modal-item">
+                           JAVASCRIPT con libreria GSAP
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-wordpress-line services__icon"></i>
+               <h2 class="services__title">WordPress Web Development</h2>
+               <p class="services__description">
+                  Sviluppo di siti con la piattaforma WordPress. <br>
+                  Siti agili, performanti e integrabili con i più diversi plug-ins in base ai servizi da implementare.
+               </p>
+
+               <button class="services__button button">Scopri di più</button>
+
+               <div class="services__modal">
+                  <div class="services__modal-content">
+                     <i class="ri-close-line services__modal-close"></i>
+
+                     <h2 class="services__modal-title">WordPress Web Development</h2>
+
+                     <ul class="services::modal-list grid">
+                        <li class="services__modal-item">
+                           Siti personali.
+                        </li>
+                        <li class="services__modal-item">
+                           Blog.
+                        </li>
+                        <li class="services__modal-item">
+                           Siti per aziende.
+                        </li>
+                        <li class="services__modal-item">
+                           Landing pages.
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-layout-2-line services__icon"></i>
+               <h2 class="services__title">Interfacce UI/UX</h2>
+               <p class="services__description">
+                   Mi piace creare ogni sito in modo che sia disegnato per essere attraente, efficace rispetto al suo scopo e semplice da usare al punto da avere tutto quel che serve, al suo giusto posto.
+               </p>
+
+               <button class="services__button button">Scopri di più</button>
+
+               <div class="services__modal">
+                  <div class="services__modal-content">
+                     <i class="ri-close-line services__modal-close"></i>
+
+                     <h2 class="services__modal-title">Interfacce UI/UX</h2>
+
+                     <ul class="services::modal-list grid">
+                        <li class="services__modal-item">
+                          Design Antropocentrico.
+                        </li>
+                        <li class="services__modal-item">
+                           Semplicità d'uso.
+                        </li>
+                        <li class="services__modal-item">
+                           Chiarezza.
+                        </li>
+                        <li class="services__modal-item">
+                           Efficienza.
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== WORK ====================-->
+      <section class="work section">
+         <h2 class="section__title">
+            I miei ultimi progetti
+         </h2>
+
+         <div class="work__container container grid">
+
+            <article class="work__card">
+               <a href="https://30mysterystreet.netsons.org/" target="_blank" class="work__link">
+                  <img src="assets/img/30mysterystreet.webp" width="718" height="531" alt="30mysterystreet - La vendetta di Lucrezia Borgia" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+               </a>
+
+               <h2 class="work__title">30MysteryStreet - sito per un Hall Game situato a Mestre</h2>
+               <span class="work__subtitle">Custom Design & Development</span>
+            </article>
+
+            <article class="work__card">
+               <a href="https://lcmclone-lucasciarrone.netsons.org/#"  target="_blank" class="work__link">
+                  <img src="assets/img/lcm-design.webp" width="719" height="593" alt="Clone di LCM Design" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+               </a>
+
+               <h2 class="work__title">Clone del sito LCM Design</h2>
+               <span class="work__subtitle">Custom Design & Development</span>
+            </article>
+
+            <article class="work__card">
+               <a href="https://leadtracker-lucasciarrone.netlify.app/" target="_blank" class="work__link">
+                  <img src="assets/img/lead-tracker.webp" width="731" height="580" alt="Estensione per Chrome e Firefox" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+               </a>
+
+               <h2 class="work__title">Estensione per Chrome e Firefox creata con Javascript allo scopo di salvare indirizzi durante la navigazione in rete.</h2>
+               <span class="work__subtitle">Custom Design & Development</span>
+            </article>
+
+            <article class="work__card">
+               <a href="https://tipiperigolosiluca.netsons.org/" target="_blank" class="work__link">
+                  <img src="assets/img/perigolosi.webp" width="720" height="590" alt="Gelateria Perigolosi" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+               </a>
+
+               <h2 class="work__title">Gelateria Perigolosi - Progetto per una gelateria fittizia a Padova</h2>
+               <span class="work__subtitle">Custom Design & Development</span>
+            </article>
+
+            <article class="work__card">
+               <a href="https://sitoappleresponsiveluca.netsons.org/" target="_blank" class="work__link">
+                  <img src="assets/img/apple-home.webp" width="720" height="592" alt="Clone della Home Page di Apple" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+               </a>
+
+               <h2 class="work__title">Clone statico della Home Page di Apple</h2>
+               <span class="work__subtitle">Custom Design & Development</span>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <!-- <section class="testimonial section">
+
+      </section> -->
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section">
+         <div class="contact__container container grid">
+            <h2 class="section__title">
+               Parliamo del tuo progetto
+            </h2>
+
+            <a href="contact.html" class="contact__button button">Contattami</a>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div class="footer__content grid">
+            <a href="index.html" class="footer__logo">Luca</a>
+
+            <ul class="footer__links">
+               <li>
+                  <a href="about.html" class="footer__links">Chi Sono</a>
+               </li>
+
+               <li>
+                  <a href="work.html" class="footer__links">Portfolio</a>
+               </li>
+
+               <li>
+                  <a href="contact.html" class="footer__links">Contattami</a>
+               </li>
+            </ul>
+            <div class="footer__social">
+               <a href="https://github.com/Luca-Sciarrone" target="_blank" class="home__social-link" title="GitHub">
+                  <i class="ri-github-fill"></i>
+               </a>
+
+               <a href="https://www.linkedin.com/in/luca-sciarrone-331234242/" target="_blank"
+                  class="home__social-link">
+                  <i class="ri-linkedin-box-fill" title="Linkedin"></i>
+               </a>
+
+               <a href="https://twitter.com/LucaSciarrone" target="_blank"
+                  class="home__social-link">
+                  <i class="ri-twitter-x-fill" title="X"></i>
+               </a>
+            </div>
+         </div>
+         <span class="footer__copy">
+            &#169; All Rights Reserved
+         </span>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up" title="Scroll">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src=""></script>
+
+   <!--=============== INDEX JS ===============-->
+   <script src="assets/js/index.js"></script>
+</body>
+
+</html>
