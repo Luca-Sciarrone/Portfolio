@@ -587,6 +587,8 @@ body.dark-theme {
 .work__img {
   filter: grayscale(1);
   transition: filter .5s, tranform .5s;
+  width: 500px;
+  height: 250px;
 }
 
 .work__icon {
